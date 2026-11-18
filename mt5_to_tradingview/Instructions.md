@@ -5,7 +5,10 @@ Export symbols from MT5 (csv file)
 Keep only the Symbols column in the csv file (as in mt5_symbols.csv)
 
 ### 3
-Run mt5_tv.ipynb & copy the results -> save into a text file 
+Run list_mt5_tv & copy the results -> save into a text file
+```
+python list_mt5_tv.py
+``` 
 
 ### 4
 - Import this text file in TradingView
